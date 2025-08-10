@@ -1,12 +1,12 @@
-package bai1;
+package bai1_va_bai2;
 import java.util.Scanner;
 
 public class main {
-    public static Student[] s = new Student[2];
+    public static Student[] s = new Student[5];
     public static Scanner sc = new Scanner(System.in);
 
     public static void nhapThongTin() {
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 5; i++) {
             System.out.print("Nhap ten hoc sinh: ");
             String name = sc.nextLine();
             System.out.print("Nam sinh: ");

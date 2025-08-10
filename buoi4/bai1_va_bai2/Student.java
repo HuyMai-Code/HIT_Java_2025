@@ -1,4 +1,4 @@
-package bai1;
+package bai1_va_bai2;
 import java.util.Scanner;
 
 public class Student {
