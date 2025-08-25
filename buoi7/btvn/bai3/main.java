@@ -23,12 +23,15 @@ public class main {
                 students.printStudents();
             } else if (choose == 2) {
                 students.sortByScoreDesc();
+                System.out.println("Da sap xep!!!");
             } else if (choose == 3) {
                 students.sortByScoreAsc();
+                System.out.println("Da sap xep!!!");
             } else if (choose == 4) {
                 sc.nextLine();
                 System.out.print("Nhap ten muon tim: ");
                 String name = sc.nextLine();
+                System.out.println();
                 System.out.println(students.findByName(name).printInfo());
             } else if (choose == 5) {
                 System.out.println("Da thoat!!!");
